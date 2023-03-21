@@ -23,7 +23,7 @@ int main(void){
 
         switch(operazione)
         {
-            case '+': fprintf(fout, "%c %.2f1 \n", operazione,op1 + op2); break;
+            case '+': fprintf(fout, "%c %.2f \n", operazione,op1 + op2); break;
             case '-': fprintf(fout, "%c %.2f \n", operazione, op1 - op2); break;
             case '*': fprintf(fout, "%c %.2f \n",operazione, op1 * op2); break;
             case '/':
